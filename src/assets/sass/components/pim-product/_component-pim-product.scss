@@ -1,0 +1,12 @@
+@import '@sass/abstracts/vars';
+@import '@sass/abstracts/mixins';
+
+.pimproduct_left {
+  float: left;
+  width: 25%;
+}
+
+.pimproduct_right {
+  float: right;
+  width: 75%;
+}

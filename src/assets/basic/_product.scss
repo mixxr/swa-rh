@@ -1,0 +1,12 @@
+@import "@sass/abstracts/vars";
+@import "variables";
+
+.product-text {
+  font-size: $text-size-16;
+  color: #f0f000;
+
+  @include respond-to(mobile-large) {
+    padding: 0 30px 10px 30px;
+    font-size: $text-size-14;
+  }
+}
