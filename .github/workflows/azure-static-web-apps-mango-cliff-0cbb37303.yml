@@ -36,7 +36,7 @@ jobs:
           PUBLIC_URL: "https://mango-cliff-0cbb37303.2.azurestaticapps.net"
           SITECORE_API_KEY: "{084310D1-C085-42D2-A59F-CF820A9F4DF2}"
           SITECORE_API_HOST: "https://xmc-sitecoresaa4bf8-msfromxmcft6fc2-placeholders.sitecorecloud.io/"
-          JSS_APP_NAME: "sxastarter"
+          JSS_APP_NAME: "sxastarter" 
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
